@@ -16,8 +16,8 @@ def get_data():
     :return: dataset as pandas dataframe
     """
     try:
-        data = pd.read_csv(
-            "/Users/milenalang/Documents/Studium/Master/advanced_geoscripting/earthquakes_dashboard/.streamlit/multipage_app/earthquakes1800_2021.csv")
+        url = 'https://github.com/MilenaLang/earthquakes_dashboard/blob/master/.streamlit/multipage_app/earthquakes1800_2021.csv'
+        data = pd.read_csv(url)
     except Exception:
         print(
             "Could not find earthquake file."
