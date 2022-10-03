@@ -1,9 +1,10 @@
-# 📦 Streamlit App Starter Kit 
+# 📦 Earthquake Dashboard
 ```
-⬆️ (Replace above with your app's name)
+Developed by Milena Lang.
 ```
 
-Description of the app ...
+This Streamlit earthquake dashboard is designed to analyze and visualize all earthquakes occurring worldwide from 1800 to 2021.
+It provides information and maps on magnitudes, deaths, and damages.
 
 ## Demo App
 
@@ -11,11 +12,10 @@ Description of the app ...
 
 ## Section Heading
 
-This is filler text, please replace this with text for this section.
 
 ## Further Reading
 
-This is filler text, please replace this with a explanatory text about further relevant resources for this repo
+Further helpful ressources:
 - Resource 1
 - Resource 2
 - Resource 3
