@@ -6,7 +6,6 @@
 
 import streamlit as st
 from PIL import Image
-from urllib.request import urlopen
 
 # set page layout
 st.set_page_config(
@@ -37,8 +36,7 @@ def main():
     st.markdown("* The historic evolution section allows to select the desired parameters for a chronological view.")
 
     # add image
-    url = 'https://github.com/MilenaLang/earthquakes_dashboard/blob/master/.streamlit/multipage_app/erdbeben.jpg'
-    image = Image.open(urlopen(url))
+    image = Image.open('erdbeben.jpg')
     st.image(image, caption="Earthquake, derived from https://rp-online.de/panorama/ausland/taiwan-erdbeben-der-staerke-6-4-reisst-menschen-aus-dem-schlaf_bid-18908485")
 
 
