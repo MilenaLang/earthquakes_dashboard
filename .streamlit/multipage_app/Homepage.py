@@ -24,13 +24,13 @@ def main():
     st.sidebar.success("Select a page above")
     st.sidebar.info(
         """
-        This old_earthquake is developed by Milena Lang (last updated 10.10.2022).
+        This app is developed by Milena Lang (last updated 10.10.2022).
         """
     )
     # add title
     st.title("Earthquake-Dashboard (1800-2021)")
     # information about the project
-    st.write("This old_earthquake is designed to analyze and visualize all earthquakes occurring worldwide since 1800.")
+    st.write("This earthquake dashboard is designed to analyze and visualize all earthquakes occurring worldwide since 1800.")
     st.markdown("* The dashboard provides information and maps on magnitudes, deaths, and damages.")
     st.markdown("* Raw data can be viewed in the data section.")
     st.markdown("* The historic evolution section allows to select the desired parameters for a chronological view.")
