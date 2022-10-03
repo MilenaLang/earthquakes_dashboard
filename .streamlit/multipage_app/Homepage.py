@@ -6,6 +6,7 @@
 
 import streamlit as st
 from PIL import Image
+from urllib.request import urlopen
 
 # set page layout
 st.set_page_config(
@@ -37,7 +38,7 @@ def main():
 
     # add image
     url = 'https://github.com/MilenaLang/earthquakes_dashboard/blob/master/.streamlit/multipage_app/erdbeben.jpg'
-    image = Image.open(url)
+    image = Image.open(urlopen(url))
     st.image(image, caption="Earthquake, derived from https://rp-online.de/panorama/ausland/taiwan-erdbeben-der-staerke-6-4-reisst-menschen-aus-dem-schlaf_bid-18908485")
 
 
