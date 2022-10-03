@@ -36,7 +36,8 @@ def main():
     st.markdown("* The historic evolution section allows to select the desired parameters for a chronological view.")
 
     # add image
-    image = Image.open('erdbeben.jpg')
+    url = 'https://github.com/MilenaLang/earthquakes_dashboard/blob/master/.streamlit/multipage_app/erdbeben.jpg'
+    image = Image.open(url)
     st.image(image, caption="Earthquake, derived from https://rp-online.de/panorama/ausland/taiwan-erdbeben-der-staerke-6-4-reisst-menschen-aus-dem-schlaf_bid-18908485")
 
 
